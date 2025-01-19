@@ -1,0 +1,52 @@
+.team {
+  padding: 4rem 0;
+  background-color: white;
+}
+
+.team h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: var(--primary-color);
+}
+
+.memberList {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  overflow-x: auto;
+  padding: 1rem 0;
+}
+
+.member {
+  flex: 0 0 auto;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.member:hover {
+  transform: translateY(-5px);
+}
+
+.memberImage {
+  border-radius: 50%;
+  margin-bottom: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.member h3 {
+  margin-bottom: 0.5rem;
+  color: var(--text-color);
+}
+
+.member p {
+  color: #666;
+}
+
+@media (max-width: 768px) {
+  .memberList {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
