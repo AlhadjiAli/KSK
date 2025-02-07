@@ -1,4 +1,4 @@
-[submodule "nom-du-sous-module"]
-    path = nom-du-sous-module
+[submodule "KSK"]
+    path = KSK
     url = https://github.com/AlhadjiAli/KSK.git
     branch = master
