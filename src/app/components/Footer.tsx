@@ -1,17 +1,19 @@
-import styles from './Footer.module.css'
+// Footer.tsx
+
+import styles from './Footer.module.css';
 
 const Footer = () => {
   return (
     <footer className={styles.footer}>
       <div className={styles.content}>
         <div className={styles.section}>
-          <h3>KSK Digital Agency</h3>
-          <p>Transforming Businesses with Innovative Digital Solutions</p>
+          <h3>KSK Limited</h3>
+          <p> Digitize with our experts</p>
         </div>
         <div className={styles.section}>
           <h3>Contact Us</h3>
-          <p>Email: info@kskdigital.com</p>
-          <p>Phone: +1 234 567 8900</p>
+          <p>Email: info@kskltd.com</p>
+          <p>Phone: +237 677747439 / 696314672</p>
         </div>
         <div className={styles.section}>
           <h3>Follow Us</h3>

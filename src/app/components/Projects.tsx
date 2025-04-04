@@ -1,9 +1,13 @@
+// Projects.tsx
+
 'use client'
 
-import { useState } from 'react'
-import Image from 'next/image'
-import styles from './Projects.module.css'
-import content from '../data/content.json'
+import { useState } from 'react';
+
+import Image from 'next/image';
+
+import content from '../data/content.json';
+import styles from './Projects.module.css';
 
 const Projects = () => {
   const [activeProject, setActiveProject] = useState(0)
@@ -48,7 +52,7 @@ const Projects = () => {
             ) : (
               <div className={styles.videoContainer}>
                 <video width="100%" height="auto" controls autoPlay>
-                  <source src="/videos/project-showcase.mp4" type="video/mp4" />
+                  <source src="/videos/1.mp4" type="video/mp4" />
                   Your browser does not support the video tag.
                 </video>
                 <button className={styles.closeVideo} onClick={() => setShowVideo(false)}>

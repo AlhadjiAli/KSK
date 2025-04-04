@@ -1,5 +1,7 @@
-import styles from './Services.module.css'
-import content from '../data/content.json'
+// Services.tsx
+
+import content from '../data/content.json';
+import styles from './Services.module.css';
 
 const Services = () => {
   return (
@@ -17,5 +19,5 @@ const Services = () => {
   )
 }
 
-export default Services
+export default Services;
 

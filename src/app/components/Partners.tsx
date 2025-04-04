@@ -1,6 +1,9 @@
-import Image from 'next/image'
-import styles from './Partners.module.css'
-import content from '../data/content.json'
+// Partners.tsx
+
+import Image from 'next/image';
+
+import content from '../data/content.json';
+import styles from './Partners.module.css';
 
 const Partners = () => {
   return (

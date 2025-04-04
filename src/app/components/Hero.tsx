@@ -1,9 +1,16 @@
+// Hero.tsx
+
 'use client'
 
-import { useState, useEffect } from 'react'
-import Image from 'next/image'
-import styles from './Hero.module.css'
-import content from '../data/content.json'
+import {
+  useEffect,
+  useState,
+} from 'react';
+
+import Image from 'next/image';
+
+import content from '../data/content.json';
+import styles from './Hero.module.css';
 
 const Hero = () => {
   const [currentSlide, setCurrentSlide] = useState(0)
@@ -35,7 +42,9 @@ const Hero = () => {
       <div className={styles.content}>
         <h1>{content.hero.title}</h1>
         <p>{content.hero.subtitle}</p>
-        <button className={styles.cta}>Learn More</button>
+        <button className={styles.cta} >
+            Learn More
+        </button>
       </div>
     </section>
   )

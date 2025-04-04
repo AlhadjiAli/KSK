@@ -1,73 +1,89 @@
+
 {
+  "logo":{
+    "imagesrc" :"/images/logo/Ksk-logo.png"
+  },
   "hero": {
-    "title": "KSK Digital Agency",
+    "title": "Kimbrel Services Kamerun",
     "subtitle": "Transforming Businesses with Innovative Digital Solutions",
-    "slides": ["/images/hero/0.jpg", "/images/hero/8.jpg", "/images/hero/4.jpg"]
+    "slides": [
+      "/images/hero/0.jpg",
+      "/images/hero/8.jpg",
+      "/images/hero/4.jpg"
+    ]
   },
   "services": [
     {
       "id": 1,
-      "title": "Web Development",
-      "description": "Custom websites tailored to your business needs"
+      "title": "Software",
+      "description": "Description"
     },
     {
       "id": 2,
-      "title": "CRM Solutions",
-      "description": "Streamline your customer relationships with our CRM systems"
+      "title": "Hardware",
+      "description": "Description"
     },
     {
       "id": 3,
-      "title": "ERP Implementation",
-      "description": "Integrate all aspects of your business with our ERP solutions"
-    },
-    {
-      "id": 4,
-      "title": "School Management Systems",
-      "description": "Efficient systems for educational institutions"
-    },
-    {
-      "id": 5,
-      "title": "Hospital Management Systems",
-      "description": "Comprehensive solutions for healthcare facilities"
+      "title": "Services suppliers",
+      "description": "Description"
     }
   ],
   "projects": [
     {
       "id": 1,
-      "title": "E-commerce Platform",
-      "description": "A fully-featured online store for a major retailer",
+      "title": "Personnel Management",
+      "description": "Human Ressource & Payroll",
       "image": "/images/projet/1.jpg"
     },
     {
       "id": 2,
-      "title": "School Management System",
-      "description": "Comprehensive system for a network of private schools",
+      "title": "Stock Management",
+      "description": "Sales & Stock-keeping",
       "image": "/images/projet/4.webp"
     },
     {
       "id": 3,
-      "title": "Hospital ERP",
-      "description": "Integrated ERP solution for a large hospital chain",
+      "title": "Hotel Management",
+      "description": "Costumers Service | Restauration",
       "image": "/images/projet/3.webp"
     }
   ],
   "team": [
     {
       "id": 1,
-      "name": "Moses XXX XXX",
+      "name": "TANUMANG",
       "position": "CEO",
-      "image": "/images/teams/team1.jpg"
+      "image": "/images/teams/team1.png"
     },
     {
       "id": 2,
-      "name": "Alhadji Ali G.",
-      "position": "CTO",
+      "name": "FOTSI Felicité",
+      "position": "Secretary",
       "image": "/images/teams/team2.png"
     },
     {
       "id": 3,
-      "name": "Mike Johnson",
-      "position": "Lead Developer",
+      "name": "Alhadji Ali G.",
+      "position": "CTO",
+      "image": "/images/teams/team3.png"
+    },
+    {
+      "id": 4,
+      "name": "MBODY Martin Gael",
+      "position": "Consultant",
+      "image": "/images/teams/team3.jpg"
+    },
+    {
+      "id": 5,
+      "name": "William Nakim",
+      "position": "Consultant",
+      "image": "/images/teams/team3.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Martin IT",
+      "position": "Consultant",
       "image": "/images/teams/team3.jpg"
     }
   ],
@@ -94,9 +110,9 @@
   "partners": [
     {
       "id": 1,
-      "name": "TechCorp",
-      "logo": "/images/partner/1.png",
-      "title": "Tech Corporation"
+      "name": "Global Space Consulting",
+      "logo": "/images/partner/GS.jpeg",
+      "title": "Global Space Consulting"
     },
     {
       "id": 2,
@@ -109,18 +125,6 @@
       "name": "InnoSoft",
       "logo": "/images/partner/9.jpg",
       "title": "Saler Food"
-    },
-    {
-      "id": 4,
-      "name":"Ets XYZ",
-      "logo": "/images/partner/4.jpg",
-      "title": "Marketplace"
-    },
-    {
-      "id": 5,
-      "name": "DataFlow",
-      "logo": "/images/partner/8.jpg",
-      "title": "Data Flow"
     }
   ],
   "jobs": [
@@ -136,4 +140,3 @@
     }
   ]
 }
-

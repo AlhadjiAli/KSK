@@ -1,9 +1,11 @@
-import Hero from './components/Hero'
-import Services from './components/Services'
-import Projects from './components/Projects'
-import Team from './components/Team'
-import Testimonials from './components/Testimonials'
-import Partners from './components/Partners'
+// page.tsx
+
+import Hero from './components/Hero';
+import Partners from './components/Partners';
+import Projects from './components/Projects';
+import Services from './components/Services';
+import Team from './components/Team';
+import Testimonials from './components/Testimonials';
 
 export default function Home() {
   return (
@@ -15,6 +17,6 @@ export default function Home() {
       <Testimonials />
       <Partners />
     </>
-  )
+  );
 }
 

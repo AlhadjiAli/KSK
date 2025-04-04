@@ -1,9 +1,16 @@
+// Team.tsx
+
 'use client'
 
-import { useState, useEffect } from 'react'
-import Image from 'next/image'
-import styles from './Team.module.css'
-import content from '../data/content.json'
+import {
+  useEffect,
+  useState,
+} from 'react';
+
+import Image from 'next/image';
+
+import content from '../data/content.json';
+import styles from './Team.module.css';
 
 const Team = () => {
   const [activeIndex, setActiveIndex] = useState(0)
@@ -29,8 +36,8 @@ const Team = () => {
               <Image
                 src={member.image || "/placeholder.svg"}
                 alt={member.name}
-                width={200}
-                height={200}
+                width={170}
+                height={175}
                 objectFit="cover"
                 className={styles.memberImage}
               />
