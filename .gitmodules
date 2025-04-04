@@ -2,3 +2,5 @@
 #     path = KSK
 #     url = https://github.com/AlhadjiAli/KSK.git
 #     branch = master
+[submodule "KSK"]
+	url = https://github.com/utilisateur/KSK.git
